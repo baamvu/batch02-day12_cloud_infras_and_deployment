@@ -1,5 +1,17 @@
 # Solution.md — Day 12 Code Lab Answers
 
+## Deployed URL
+
+**Public URL:** https://ai-agent-production-tcv4.onrender.com/
+
+**Endpoints:**
+- `GET /health` — Liveness probe
+- `GET /ready` — Readiness probe
+- `POST /ask` — Agent endpoint (requires `X-API-Key` header)
+- `POST /chat` — Multi-turn conversation (requires `X-API-Key` header)
+
+---
+
 ## Part 1: Localhost vs Production
 
 ### Exercise 1.1: Phát hiện anti-patterns trong `01-localhost-vs-production/develop/app.py`
